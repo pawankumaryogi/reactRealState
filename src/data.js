@@ -70,6 +70,7 @@ export const housesData = [
     surface: "4200 sq ft",
     year: "2016",
     price: "110000",
+    date: 18,
     agent: {
       image: Agent1,
       name: "somya tiwari",
@@ -91,6 +92,7 @@ export const housesData = [
     surface: "4200 sq ft",
     year: "2016",
     price: "140000",
+    date: 30,
     agent: {
       image: Agent2,
       name: "ramesh mathur",
@@ -112,6 +114,7 @@ export const housesData = [
     surface: "4200 sq ft",
     year: "2016",
     price: "170000",
+    date: 22,
     agent: {
       image: Agent3,
       name: "Amado Smith",
@@ -133,6 +136,7 @@ export const housesData = [
     surface: "4200 sq ft",
     year: "2016",
     price: "200000",
+    date: 17,
     agent: {
       image: Agent4,
       name: "Kaitlyn Gonzalez",
@@ -154,6 +158,7 @@ export const housesData = [
     surface: "4200 sq ft",
     year: "2015",
     price: "210000",
+    date: 23,
     agent: {
       image: Agent5,
       name: "Grover Robinson",
@@ -175,6 +180,7 @@ export const housesData = [
     surface: "6200 sq ft",
     year: "2014",
     price: "220000",
+    date: 5,
     agent: {
       image: Agent6,
       name: "Karen Sorensen",
@@ -196,6 +202,7 @@ export const housesData = [
     surface: "1200 sq ft",
     year: "2012",
     price: "20000",
+    date: 14,
     agent: {
       image: Agent7,
       name: "Jawhar Shamil Naser",
@@ -217,6 +224,7 @@ export const housesData = [
     surface: "1000 sq ft",
     year: "2011",
     price: "30000",
+    date: 14,
     agent: {
       image: Agent8,
       name: "Juana Douglass",
@@ -238,6 +246,7 @@ export const housesData = [
     surface: "1100 sq ft",
     year: "2011",
     price: "40000",
+    date: 14,
     agent: {
       image: Agent9,
       name: "Jerry Schenck",
@@ -259,7 +268,7 @@ export const housesData = [
     surface: "3200 sq ft",
     year: "2015",
     price: "117000",
-    date: 1 - 1,
+    date: 1,
     agent: {
       image: Agent10,
       name: "Vera Levesque",
@@ -325,7 +334,7 @@ export const housesData = [
     surface: "5200 sq ft",
     year: "2014",
     price: "180000",
-    date: 6 - 8,
+    date: 6 - 1,
     agent: {
       image: Agent1,
       name: "Patricia Tullert",
@@ -347,6 +356,7 @@ export const housesData = [
     surface: "3200 sq ft",
     year: "2011",
     price: "213000",
+    date: 14,
     agent: {
       image: Agent2,
       name: "Daryl Hawker",
@@ -369,7 +379,7 @@ export const housesData = [
     surface: "5200 sq ft",
     year: "2013",
     price: "221000",
-    date: 5 - 11,
+    date: 5 - 1,
     agent: {
       image: Agent3,
       name: "Amado Smith",
@@ -391,7 +401,7 @@ export const housesData = [
     surface: "1300 sq ft",
     year: "2011",
     price: "21000",
-    date: 1 - 6,
+    date: 23,
     agent: {
       image: Agent4,
       name: "Kaitlyn Gonzalez",
@@ -413,7 +423,7 @@ export const housesData = [
     surface: "1000 sq ft",
     year: "2012",
     price: "32000",
-    date: 1 - 10,
+    date: 10,
     agent: {
       image: Agent5,
       name: "Grover Robinson",
@@ -435,7 +445,7 @@ export const housesData = [
     surface: "1200 sq ft",
     year: "2010",
     price: "38000",
-    date: 5 - 11,
+    date: 5,
     agent: {
       image: Agent6,
       name: "Karen Sorensen",

@@ -14,7 +14,7 @@ const HouseContextProvider = ({ children }) => {
   const [property, setProperty] = useState("Property type (any)");
   const [properties, setProperties] = useState([]);
   const [price, setPrice] = useState("Price range (any)");
-  const [date, setDate] = useState("Price range (any)");
+  const [date, setDate] = useState("date (any)");
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -29,6 +29,19 @@ const HouseContextProvider = ({ children }) => {
     // set countries state
     setCountries(uniqueCountries);
   }, []);
+
+  // useEffect(() => {
+  //   // return all date
+  //   const allDate = houses.map((house) => {
+  //     return house.date;
+  //   });
+  //   console.log(allDate);
+  //   // remove duplicates
+  //   const uniqueDate = ["date (any)", ...new Set(allDate)];
+
+  //   // set date state
+  //   setDate(uniqueDate);
+  // }, []);
 
   useEffect(() => {
     // return only countries
@@ -78,6 +91,7 @@ const HouseContextProvider = ({ children }) => {
       if (!isDefault(property) && isDefault(country) && isDefault(price)) {
         return house.type === property;
       }
+
       // price is not default
       if (!isDefault(price) && isDefault(country) && isDefault(property)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
@@ -113,6 +127,8 @@ const HouseContextProvider = ({ children }) => {
   return (
     <HouseContext.Provider
       value={{
+        date,
+        setDate,
         country,
         setCountry,
         countries,
